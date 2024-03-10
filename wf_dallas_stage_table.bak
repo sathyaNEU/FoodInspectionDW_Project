@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>5000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Inspection Type" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Inspection Date" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Inspection Score" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Street Number" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Street Name" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Street Direction" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Street Type" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Street Unit" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Street Address" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Zip Code" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 1" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 1" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 2" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 2" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 3" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 3" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 4" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 4" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 5" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 5" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 6" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 6" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 7" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 7" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 8" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 8" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 9" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 9" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 10" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 10" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 11" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 11" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 12" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 12" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 13" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 13" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 14" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 14" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 15" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 15" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 16" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 16" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 17" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 17" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 18" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 18" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 19" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 19" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 20" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 20" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 21" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 21" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 22" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 22" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 23" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 23" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 24" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 24" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 25" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Points - 25" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Inspection Month" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Inspection Year" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Lat Long Location" size="5000" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Lenovo\AppData\Local\Temp\Engine_26036_c9e5d51be6284541b860ae9e46535e30_\Engine_26036_098d8967cea2e840b95bfc8fefa0a3c0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="618" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>stg_dallas</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">d68331cf-11e7-4a9c-bb42-0783c46a2785</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:damgbi — damgbi
+Table=stg_dallas</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="306" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Inspection_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="Inspection Date" selected="False" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Description - 1" selected="True" />
+            <SelectField field="Violation Points - 1" selected="True" />
+            <SelectField field="Violation Detail - 1" selected="True" />
+            <SelectField field="Violation Memo - 1" selected="True" />
+            <SelectField field="Violation Description - 2" selected="True" />
+            <SelectField field="Violation Points - 2" selected="True" />
+            <SelectField field="Violation Detail - 2" selected="True" />
+            <SelectField field="Violation Memo - 2" selected="True" />
+            <SelectField field="Violation Description - 3" selected="True" />
+            <SelectField field="Violation Points - 3" selected="True" />
+            <SelectField field="Violation Detail - 3" selected="True" />
+            <SelectField field="Violation Memo - 3" selected="True" />
+            <SelectField field="Violation Description - 4" selected="True" />
+            <SelectField field="Violation Points - 4" selected="True" />
+            <SelectField field="Violation Detail - 4" selected="True" />
+            <SelectField field="Violation Memo - 4" selected="True" />
+            <SelectField field="Violation Description - 5" selected="True" />
+            <SelectField field="Violation Points - 5" selected="True" />
+            <SelectField field="Violation Detail - 5" selected="True" />
+            <SelectField field="Violation Memo - 5" selected="True" />
+            <SelectField field="Violation Description - 6" selected="True" />
+            <SelectField field="Violation Points - 6" selected="True" />
+            <SelectField field="Violation Detail - 6" selected="True" />
+            <SelectField field="Violation Memo - 6" selected="True" />
+            <SelectField field="Violation Description - 7" selected="True" />
+            <SelectField field="Violation Points - 7" selected="True" />
+            <SelectField field="Violation Detail - 7" selected="True" />
+            <SelectField field="Violation Memo - 7" selected="True" />
+            <SelectField field="Violation Description - 8" selected="True" />
+            <SelectField field="Violation Points - 8" selected="True" />
+            <SelectField field="Violation Detail - 8" selected="True" />
+            <SelectField field="Violation Memo - 8" selected="True" />
+            <SelectField field="Violation Description - 9" selected="True" />
+            <SelectField field="Violation Points - 9" selected="True" />
+            <SelectField field="Violation Detail - 9" selected="True" />
+            <SelectField field="Violation Memo - 9" selected="True" />
+            <SelectField field="Violation Description - 10" selected="True" />
+            <SelectField field="Violation Points - 10" selected="True" />
+            <SelectField field="Violation Detail - 10" selected="True" />
+            <SelectField field="Violation Memo - 10" selected="True" />
+            <SelectField field="Violation Description - 11" selected="True" />
+            <SelectField field="Violation Points - 11" selected="True" />
+            <SelectField field="Violation Detail - 11" selected="True" />
+            <SelectField field="Violation Memo - 11" selected="True" />
+            <SelectField field="Violation Description - 12" selected="True" />
+            <SelectField field="Violation Points - 12" selected="True" />
+            <SelectField field="Violation Detail - 12" selected="True" />
+            <SelectField field="Violation Memo - 12" selected="True" />
+            <SelectField field="Violation Description - 13" selected="True" />
+            <SelectField field="Violation Points - 13" selected="True" />
+            <SelectField field="Violation Detail - 13" selected="True" />
+            <SelectField field="Violation Memo - 13" selected="True" />
+            <SelectField field="Violation Description - 14" selected="True" />
+            <SelectField field="Violation Points - 14" selected="True" />
+            <SelectField field="Violation Detail - 14" selected="True" />
+            <SelectField field="Violation Memo - 14" selected="True" />
+            <SelectField field="Violation Description - 15" selected="True" />
+            <SelectField field="Violation Points - 15" selected="True" />
+            <SelectField field="Violation Detail - 15" selected="True" />
+            <SelectField field="Violation Memo - 15" selected="True" />
+            <SelectField field="Violation Description - 16" selected="True" />
+            <SelectField field="Violation Points - 16" selected="True" />
+            <SelectField field="Violation Detail - 16" selected="True" />
+            <SelectField field="Violation Memo - 16" selected="True" />
+            <SelectField field="Violation Description - 17" selected="True" />
+            <SelectField field="Violation Points - 17" selected="True" />
+            <SelectField field="Violation Detail - 17" selected="True" />
+            <SelectField field="Violation Memo - 17" selected="True" />
+            <SelectField field="Violation Description - 18" selected="True" />
+            <SelectField field="Violation Points - 18" selected="True" />
+            <SelectField field="Violation Detail - 18" selected="True" />
+            <SelectField field="Violation Memo - 18" selected="True" />
+            <SelectField field="Violation Description - 19" selected="True" />
+            <SelectField field="Violation Points - 19" selected="True" />
+            <SelectField field="Violation Detail - 19" selected="True" />
+            <SelectField field="Violation Memo - 19" selected="True" />
+            <SelectField field="Violation Description - 20" selected="True" />
+            <SelectField field="Violation Points - 20" selected="True" />
+            <SelectField field="Violation Detail - 20" selected="True" />
+            <SelectField field="Violation  Memo - 20" selected="True" />
+            <SelectField field="Violation Description - 21" selected="True" />
+            <SelectField field="Violation Points - 21" selected="True" />
+            <SelectField field="Violation Detail - 21" selected="True" />
+            <SelectField field="Violation Memo - 21" selected="True" />
+            <SelectField field="Violation Description - 22" selected="True" />
+            <SelectField field="Violation Points - 22" selected="True" />
+            <SelectField field="Violation Detail - 22" selected="True" />
+            <SelectField field="Violation Memo - 22" selected="True" />
+            <SelectField field="Violation Description - 23" selected="True" />
+            <SelectField field="Violation Points - 23" selected="True" />
+            <SelectField field="Violation Detail - 23" selected="True" />
+            <SelectField field="Violation Memo - 23" selected="True" />
+            <SelectField field="Violation Description - 24" selected="True" />
+            <SelectField field="Violation Points - 24" selected="True" />
+            <SelectField field="Violation Detail - 24" selected="True" />
+            <SelectField field="Violation Memo - 24" selected="True" />
+            <SelectField field="Violation Description - 25" selected="True" />
+            <SelectField field="Violation Points - 25" selected="True" />
+            <SelectField field="Violation Detail - 25" selected="True" />
+            <SelectField field="Violation Memo - 25" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="Inspection Date2" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_create_date" size="10" type="Date" />
+            <FormulaField expression="FileGetFileName()&quot;wf_dallas_stage_table&quot;" field="DI_Workflow_file_name" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_create_date = DateTimeNow()
+DI_Workflow_file_name = FileGetFileName()"wf_dall...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Score" selected="True" />
+            <Field field="Street Number" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Lat Long Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="65" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Inspection Date" size="10" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Inspection Score" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Int16" />
+            <Field name="Street Number" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Int32" />
+            <Field name="Street Name" size="25" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Street Type" size="4" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Street Unit" size="5" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Street Address" size="36" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 1" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 1" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="2326" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 2" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 2" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 2" size="2569" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 3" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 3" size="1043" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 3" size="2397" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 4" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 4" size="1018" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 4" size="3214" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 5" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 5" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1823" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 6" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 6" size="1018" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1665" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 7" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 7" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1837" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 8" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 8" size="1039" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1516" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 9" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 9" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1584" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 10" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 10" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 10" size="2087" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 11" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 11" size="910" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1325" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 12" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 12" size="994" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 12" size="502" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 13" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 13" size="888" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 13" size="881" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 14" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 14" size="888" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 14" size="818" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 15" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 15" size="888" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 15" size="818" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 16" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 16" size="888" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 16" size="397" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 17" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 17" size="829" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 17" size="225" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 18" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 18" size="829" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 19" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 19" size="815" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 20" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 20" size="815" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 21" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 21" size="815" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 22" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 22" size="815" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 22" size="374" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 23" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 23" size="492" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 24" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 24" size="434" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Points - 25" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="Byte" />
+            <Field name="Violation Detail - 25" size="482" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Inspection Year" size="6" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="String" />
+            <Field name="Lat Long Location" size="73" source="File: C:\Users\Lenovo\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240214 (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>wf_dallas_stage_table</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d795380b-abf4-4af7-880a-6f4a35ca0996" />
+      <Telemetry>
+        <PreviousWorkflowId value="fd44a265-86b5-49d4-ab65-418b010ff12d" />
+        <OriginWorkflowId value="fd44a265-86b5-49d4-ab65-418b010ff12d" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

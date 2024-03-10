@@ -1,0 +1,479 @@
+[ {
+  "baseItem" : {
+    "id" : "_-h2S4NBPEe6otemSfB2zVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ZhMeENEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_inspection_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_v2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA - stg_dallas_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_30jvINL6Ee6Sm-iHgCkk_w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ZhMeENEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_violations",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_v2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA - stg_dallas_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_AEdtwMoREe6SX_DnEgZjRQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_G_raEMraEe6IG5aBKqiRbg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_date",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_AIMnwNEjEe6Tq-T0n-iEHg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ZhMeENEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_address",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_date",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_establishment",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_facility_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_inspection_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_result",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_risk",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_violations",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - fact_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA - stg_dallas_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_BLy7MNBREe66TNzxQODSLw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_G_raEMraEe6IG5aBKqiRbg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ZhMeENEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_address",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_v2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA - stg_dallas_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_KtgZgNHnEe6QeeFu2A4YZg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_4GG8UNKxEe6Sm-iHgCkk_w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_G_raEMraEe6IG5aBKqiRbg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Jna4MNIIEe6vbNmSoqxL4w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_v8OrINKxEe6Sm-iHgCkk_w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_5aMaYNKxEe6Sm-iHgCkk_w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_yxJp0NKxEe6Sm-iHgCkk_w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5aMaYNKxEe6Sm-iHgCkk_w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_yxJp0NKxEe6Sm-iHgCkk_w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__9w9kNEbEe6Tq-T0n-iEHg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_jaFOwNEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_cN3ucNEiEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_result",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_cN3ucNEiEe6Tq-T0n-iEHg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cS4KQNEiEe6A5ZZhLkgv2g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_G_raEMraEe6IG5aBKqiRbg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ZhMeENEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_address",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_establishment",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_facility_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_v2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_vDYzENBKEe6otemSfB2zVA - stg_dallas_food_inspection",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_dP6hsNBbEe6QeeFu2A4YZg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_G_raEMraEe6IG5aBKqiRbg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_risk",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_v2",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_jjPagNEXEe6Tq-T0n-iEHg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_enis0NEoEe6Tq-T0n-iEHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iu3ZINBTEe6otemSfB2zVA - dim_facility_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_aQfoYNBJEe6otemSfB2zVA - stg_chicago_v2",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

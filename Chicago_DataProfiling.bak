@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>45B6ED3A031C9D300796685835EFEA26F69552F04EB4EE2E87B21</Passwords>
+          <File FileFormat="23" RecordLimit="">odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||"call_centre"."dbo"."stg_chicago"</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=praveen
+Query="call_centre"."dbo"."stg_chi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="DBA Name" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="AKA Name" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="License #" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Facility Type" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Risk" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Address" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="City" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="State" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Zip" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Inspection Type" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Results" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Violations" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Latitude" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Longitude" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Location" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+            <Field name="Inspection_Date" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="Date" />
+            <Field name="DI_CreatedDate" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="Date" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jspra\AppData\Local\Temp\Engine_37276_19c59f48192a7b43b8743e068284e5e8_\Engine_37276_de2d54eff1ccef40929bbb3b66994a9d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="222" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Inspection ID=True,DBA Name=True,AKA Name=True,License #=True,Facility Type=True,Risk=True,Address=True,City=True,State=True,Zip=True,Inspection Type=True,Results=True,Violations=True,Latitude=True,Longitude=True,Location=True,Inspection_Date=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jspra\AppData\Local\Temp\Engine_37276_19c59f48192a7b43b8743e068284e5e8_\Engine_37276_dc67fb2432892d49adf6f123de56dc7a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jspra\AppData\Local\Temp\Engine_37276_19c59f48192a7b43b8743e068284e5e8_\Engine_37276_652df53ef4774b44bb741cb49814c5fe~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DI_CreatedDate" selected="False" />
+            <SelectField field="DI_WorkflowFileName" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jspra\AppData\Local\Temp\Engine_37276_19c59f48192a7b43b8743e068284e5e8_\Engine_37276_1c6cdb00972f154884aa74ac408dc50a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection ID" selected="True" />
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="License #" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="License #" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="String" />
+            <Field name="Address" size="51" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="City" size="20" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="String" />
+            <Field name="Zip" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="Int32" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="Violations" size="11587" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="String" />
+            <Field name="Longitude" size="18" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="String" />
+            <Field name="Location" size="40" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="String" />
+            <Field name="Inspection_Date" source="File: odbc:DSN=praveen;UID=praveen1234;PWD=__EncPwd1__|||&quot;call_centre&quot;.&quot;dbo&quot;.&quot;stg_chicago&quot;" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\jspra\AppData\Local\Temp\Engine_37276_19c59f48192a7b43b8743e068284e5e8_\Engine_37276_86fa7bf8e2dc4c45b5fd468cdfcb7b08~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Reports" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Interactive" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_DataProfiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="598c20c3-1fd5-48ec-9aec-ecb3efda6241" />
+      <Telemetry>
+        <PreviousWorkflowId value="e64d9f2e-ea14-406a-bb6d-870e128701be" />
+        <OriginWorkflowId value="e1e73ac7-1157-4eed-b90e-665f5e6dc439" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

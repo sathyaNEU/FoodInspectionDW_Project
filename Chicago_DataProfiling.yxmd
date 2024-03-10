@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Chicago_Dataset.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sathya\AppData\Local\Temp\Engine_17728_341650d4d9ca6a45b450c996fc3db4fe_\Engine_17728_30b30dbf40f86e49a0aada2441b394c9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="222" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Inspection ID=True,DBA Name=True,AKA Name=True,License #=True,Facility Type=True,Risk=True,Address=True,City=True,State=True,Zip=True,Inspection Date=False,Inspection Type=True,Results=True,Violations=True,Latitude=True,Longitude=True,Location=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sathya\AppData\Local\Temp\Engine_17728_341650d4d9ca6a45b450c996fc3db4fe_\Engine_17728_e05f4c8b6bec754193a1fc9f2185bed9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sathya\AppData\Local\Temp\Engine_17728_341650d4d9ca6a45b450c996fc3db4fe_\Engine_17728_5f0c25816dc6e64b951b5a5379213f3b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DI_CreatedDate" selected="False" />
+            <SelectField field="DI_WorkflowFileName" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sathya\AppData\Local\Temp\Engine_17728_341650d4d9ca6a45b450c996fc3db4fe_\Engine_17728_77096729fbd99a4285248043663ed7dd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection ID" selected="True" />
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="License #" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: D:\All Tracks\DOC\SATHYA\NEU\SEM2\DADABI\Mid_Term_Project_Artifacts\Chicago_Dataset.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\Sathya\AppData\Local\Temp\Engine_17728_341650d4d9ca6a45b450c996fc3db4fe_\Engine_17728_76a6d97b185e8b4b8af013d55a41551f~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Reports" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Interactive" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_DataProfiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="598c20c3-1fd5-48ec-9aec-ecb3efda6241" />
+      <Telemetry>
+        <PreviousWorkflowId value="e64d9f2e-ea14-406a-bb6d-870e128701be" />
+        <OriginWorkflowId value="e1e73ac7-1157-4eed-b90e-665f5e6dc439" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

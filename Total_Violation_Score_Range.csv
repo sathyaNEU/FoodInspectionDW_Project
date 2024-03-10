@@ -1,0 +1,4 @@
+﻿Result,Lower_Limit,Upper_Limit
+Fail,61,100
+Pass with Warning,31,60
+Pass,0,30

@@ -1,0 +1,29 @@
+{
+  "itemId" : "_aQfoYNBJEe6otemSfB2zVA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_JIveYNEnEe6Tq-T0n-iEHg",
+    "parameterList" : [ {
+      "id" : "_JJJHAdEnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_Login"
+    }, {
+      "id" : "_JJJHAtEnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_Password"
+    }, {
+      "id" : "_JJJHA9EnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_Server"
+    }, {
+      "id" : "_JJJHBNEnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_Schema"
+    }, {
+      "id" : "_JJJHBdEnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_AdditionalParams"
+    }, {
+      "id" : "_JJJHBtEnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_Port"
+    }, {
+      "id" : "_JJJHB9EnEe6Tq-T0n-iEHg",
+      "name" : "src_chicago_food_inspect_stage_Database"
+    } ]
+  } ]
+}
